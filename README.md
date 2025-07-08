@@ -1,0 +1,14 @@
+# Perfume Preview Card 💐
+
+This is a responsive product preview card built using HTML & CSS.  
+It is inspired by the official **Chanel Gabrielle Essence** product.
+
+🔹 **Built with:**
+- HTML5
+- CSS3
+- Responsive Media Queries
+
+📱 Mobile responsive & clean design!
+
+🔗 **Live Demo:**  
+[https://aiza-aslam.github.io/perfume-preview-card/](https://aiza-aslam.github.io/perfume-preview-card/)
