@@ -1,0 +1,122 @@
+*{
+    margin: 0%;
+    padding :0%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+html,body{
+    width:100%;
+    height:100%;
+}
+body{
+    background-color: rgb(253, 239, 241);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.main {
+  background-color: white;
+  width: 90%;
+  max-width: 600px;
+  border-radius: 3%;
+  display: flex;
+  flex-direction: row;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#left{
+   
+   width:50%;
+}
+#right{
+    background-color: white;
+    
+   width:50%;
+}
+img{
+    height:100%;
+   width:100%;
+  border-top-left-radius: 3%;
+  border-bottom-left-radius: 3%;
+}
+#right {
+    font-weight: lighter;
+     border-top-right-radius: 3%;
+  border-bottom-right-radius: 3%;
+}
+#name {
+margin:25px;
+letter-spacing: 5px;
+
+}
+#heading{
+margin:25px;
+
+}
+#description{
+    margin:25px;
+    
+}
+#button{
+    margin:25px;
+   background-color:rgb(2, 92, 71);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:80%;
+    height:10%;
+    border-radius: 8px;
+   
+    
+}
+button{
+    background-color:rgb(2, 92, 71);
+    color:white;
+    border: none;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px; /* spacing between icon and text */
+    font-size: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    
+}
+button:hover {
+  background-color: #064e3b;
+  transition: 0.3s ease;
+}
+#price{
+    margin:25px;
+   
+    display:flex;
+}
+
+#price p {
+  padding-left: 15px;
+  padding-top: 10px;
+  text-decoration: line-through;
+  color: gray;
+}
+#price h1{
+    color:rgb(2, 92, 71);
+}
+@media screen and (max-width: 768px) {
+  .main {
+    flex-direction: column;
+    width: 90%;
+    height: auto;
+  }
+
+  #left, #right {
+    width: 100%;
+    height: auto;
+  }
+
+  img {
+    border-radius: 3% 3% 0 0;
+  }
+}
+
