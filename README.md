@@ -11,4 +11,4 @@ It is inspired by the official **Chanel Gabrielle Essence** product.
 📱 Mobile responsive & clean design!
 
 🔗 **Live Demo:**  
-[https://aiza-aslam.github.io/perfume-preview-card/](https://aiza-aslam.github.io/perfume-preview-card/)
+[https://ayza-aslam.github.io/perfume-preview-card/](https://ayza-aslam.github.io/perfume-preview-card/)
